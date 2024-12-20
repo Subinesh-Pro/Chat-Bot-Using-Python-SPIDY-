@@ -22,7 +22,7 @@ Make sure you have the following Python libraries installed:
 - `requests` (for web requests)
 - `pyjokes` (for jokes)
 - `wolframalpha` (for solving queries)
-
+  
 Install dependencies using `pip`:
 ```bash
 pip install pyttsx3 speechrecognition wikipedia pyjokes requests wolframalpha
@@ -32,7 +32,8 @@ To run the assistant:
 
 Clone or download the project.
 Navigate to the project directory and run the voice_assistant.py script.
-
+bash
+Copy code
 python voice_assistant.py
 The assistant will greet you, and you can start interacting using voice commands!
 
@@ -56,46 +57,3 @@ Make your changes and submit a pull request.
 Acknowledgements
 The assistant is created by students at AIHT.
 Inspired by various open-source voice assistant projects.
-markdown
-Copy code
-
-### Explanation of Markdown Syntax:
-1. **Headers**: 
-   - `#` for H1, `##` for H2, `###` for H3, etc. Use headers to create sections in your README.
-   - Example: `## **Overview**` makes a bold, medium-sized header.
-   
-2. **Bold Text**: 
-   - Use `**` around text to make it bold.
-   - Example: `**MIT License**` will display "MIT License" in bold.
-   
-3. **Code Blocks**:
-   - For inline code, wrap the code in backticks (`).
-     - Example: \`python voice_assistant.py\` displays `python voice_assistant.py`.
-   - For multi-line code blocks, use triple backticks (```)
-     - Example:
-     ```bash
-     pip install pyttsx3 speechrecognition
-     ```
-
-4. **Lists**:
-   - Use `-` or `*` for bullet points.
-   - Example:
-     ```markdown
-     - Open YouTube
-     - Check time
-     ```
-
-5. **Links**: 
-   - Use `[link text](URL)` to add links.
-   - Example: `[GitHub](https://github.com)` will display "GitHub" as a clickable link.
-
-6. **Sections**:
-   - You can create sections with headers and add descriptions or usage instructions below them.
-
-### What the Final Markdown `README.md` Looks Like:
-- **Titles/headers** are used for the main sections.
-- **Bold text** highlights important terms or headings.
-- **Code blocks** make commands, snippets, and installation instructions clear.
-- **Lists** present easy-to-read, organized information like commands or features.
-
-By using markdown formatting like this, your README will look much more polished and user-f
